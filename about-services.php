@@ -52,14 +52,9 @@
 <p>We operate a quality assurance system for all aspects of our contract work. The work will conform to the aims of British Standard 5750.</p>
 
 
-<h2>Quality-assured workmanship</h2>
+<h2>Quality-assured workmanship and customer satisfaction</h2>
 
-<p><a href="http://www.guildmc.com/" title="visit the Guild of Master Craftsmen website"><img src="images/guild.png" width="173" height="173" alt="Guild of Master Craftsmen" /></a>CP Conversions are accredited by the Guild of Master Craftsmen.</p>
-
-<p>The Guild promotes and supports excellence. They have a rigorous selection procedure which ensures that accredited building and conversion companies conform to the highest standards of craftmanship.</p>
-
-
-<h2>Customer satisfaction</h2>
+<p>All our building and conversion work conforms to the highest standards of professional craftmanship.</p>
 
 <p>We have a reputation for quality, integrity, dedication and superior workmanship for all building projects. Our experience and understanding of our client's requirements mean we have many satisfied customers.</p>
 

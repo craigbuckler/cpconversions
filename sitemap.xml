@@ -3,30 +3,30 @@
 
 	<url>
 		<loc>http://www.cpconversions.co.uk/</loc>
-		<lastmod>2011-07-01</lastmod>
+		<lastmod>2018-07-24</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
 
 	<url>
 		<loc>http://www.cpconversions.co.uk/about-services.php</loc>
-		<lastmod>2011-07-01</lastmod>
+		<lastmod>2018-07-24</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.9</priority>
 	</url>
 
 	<url>
 		<loc>http://www.cpconversions.co.uk/projects-portfolio.php</loc>
-		<lastmod>2011-07-01</lastmod>
+		<lastmod>2018-07-24</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.9</priority>
 	</url>
-	
+
 	<url>
 		<loc>http://www.cpconversions.co.uk/contact-us.php</loc>
-		<lastmod>2011-07-01</lastmod>
+		<lastmod>2018-07-24</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
 	</url>
-	
+
 </urlset>

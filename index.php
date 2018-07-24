@@ -18,9 +18,7 @@
 
 <h2>About us</h2>
 
-<p><a href="http://www.guildmc.com/" title="visit the Guild of Master Craftsmen website"><img src="images/guild.png" width="173" height="173" alt="Guild of Master Craftsmen" /></a>We are a family-run professional builders and construction business with almost 30 years experience and many satisfied customers.</p>
-
-<p>We are members of the Guild of Master Craftsmen; an organisation that ensures the highest standards of professional workmanship for all building work.</p>
+<p>We are a family-run professional builders and construction business with almost 30 years experience. We offer the highest standard of professional workmanship for all building work and have many satisfied customers.</p>
 
 <p>Refer to our <a href="about-services.php">about us page</a> for more information.</p>
 
