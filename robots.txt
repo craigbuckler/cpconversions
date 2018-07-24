@@ -1,0 +1,5 @@
+User-agent: *
+Sitemap: http://www.cpconversions.co.uk/sitemap.xml
+Disallow: /logs
+Disallow: /template
+Disallow: /tacs

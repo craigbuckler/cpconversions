@@ -1,0 +1,6 @@
+AddType text/x-vcard vcf
+
+# rewrite to cpconversions.co.uk
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www\.cpconversions\.co\.uk [NC]
+RewriteRule ^/?(.*)$ http://www.cpconversions.co.uk/$1 [L,R=301]

@@ -1,0 +1,542 @@
+/*
+	CP Conversions stylesheet
+	(C) Optimalworks Ltd, http://www.optimalworks.net/
+*/
+
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+/* layout */
+body
+{
+	font-family: "trebuchet ms", tahoma, arial, helvetica, freesans, sans-serif;
+	font-size: 1em;
+	border-style: none;
+	color: #382d22;
+	background: #382d22 url("../images/back_head.jpg") 40% 0 no-repeat;
+}
+
+/* header */
+#header
+{
+	position: relative;
+	width: 100%;
+	height: 237px;
+	overflow: hidden;
+}
+
+#header p
+{
+	position: absolute;
+	width: 440px;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: right;
+	letter-spacing: -1px;
+	left: 120px;
+	top: 130px;
+	color: #382d22;
+}
+
+/* logo */
+#header p#logo
+{
+	position: static;
+	width: 627px;
+	height: 179px;
+	padding: 0;
+	margin: 0;
+}
+
+p#logo[id]
+{
+	background: url("../images/logo_shadow.png") 0 0 no-repeat;
+}
+
+p#logo a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 4em;
+	text-decoration: none;
+	color: #715a44;
+	background: url("../images/logo.png") 0 0 no-repeat;
+}
+
+p#logo a strong { display: none; }
+
+/* menu */
+ol#menu
+{
+	width: 24em;
+	height: 50px;
+	font-size: 1.2em;
+	list-style-type: none;
+	padding: 0 5px 0 0;
+	margin: 0;
+	background: url("../images/menu_curve.png") 100% 0 no-repeat;
+}
+
+ol#menu li
+{
+	float: left;
+	width: 6em;
+	text-align: center;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+ol#menu li a
+{
+	display: block;
+	height: 100%;
+	text-decoration: none;
+	color: #382d22;
+	background: url("../images/menu_button.png") 0 -50px no-repeat;
+}
+
+ol#menu li a strong
+{
+	display: block;
+	height: 100%;
+	font-weight: normal;
+	padding: 16px 10px 0 0;
+	margin-left: 10px;
+	background: url("../images/menu_button.png") 100% -50px no-repeat;
+	cursor: pointer;
+}
+
+ol#menu li.active a, ol#menu li a:hover
+{
+	background-position: 0 0;
+}
+
+ol#menu li.active a strong, ol#menu li a:hover strong
+{
+	padding-top: 13px;
+	background-position: 100% 0;
+}
+
+/* facebook */
+#facebook
+{
+	position: absolute;
+	left: 29.4em;
+	top: 7px;
+}
+
+#facebook img
+{
+	border: 0 none;
+}
+
+/* page content */
+#page
+{
+	position: relative;
+	width: 86%;
+	margin-left: 7%;
+}
+
+#content
+{
+	padding: 30px;
+	margin: 0 4px;
+	background: #e2d7cc url("../images/back_foot.png") 0 100% repeat-x;
+}
+
+#main
+{
+	display: inline;
+	float: left;
+	width: 60%;
+	min-width: 22em;
+	padding-bottom: 30px;
+}
+
+/* sidebar */
+#sidebar
+{
+	display: inline;
+	float: right;
+	min-width: 14em;
+	width: 35%;
+	background-position: 100% 0;
+}
+
+#sidebar div.content
+{
+	padding: 6px 0 0 10px;
+	margin: 0 10px 0 0;
+	background-position: 0 0;
+}
+
+#sidebar div.end
+{
+	height: 64px;
+	clear: both;
+	background-position: 100% 100%;
+}
+
+#sidebar div.end div
+{
+	font-size: 1px;
+	line-height: 1px;
+	width: 10px;
+	height: 100%;
+	background-position: 0 100%;
+}
+
+#sidebar, #sidebar div
+{
+	background-image: url("../images/box.png");
+	background-repeat: no-repeat;
+}
+
+/* footer */
+#footer
+{
+	clear: both;
+	font-size: 0.75em;
+	padding: 4px 0;
+	margin-top: 30px;
+	background-color: #C6AF99;
+	border: 1px inset #382d22;
+}
+
+#footer ol
+{
+	width: 24.5em;
+	height: 1.5em;
+	list-style-type: none;
+	padding: 0;
+	margin: 0 auto 1em auto;
+	border-left: 1px solid #382d22;
+}
+
+#footer ol li
+{
+	height: 100%;
+	float: left;
+	width: 6em;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	border-right: 1px solid #382d22;
+}
+
+#footer ol li a { display: block; width: 100%; }
+
+#footer ol li a strong { font-weight: normal; }
+#footer ol li.active a strong { font-weight: bold ; }
+
+#footer p
+{
+	text-align: center;
+	padding: 4px 0;
+}
+
+#footer a
+{
+	text-decoration: none;
+	color: #382d22;
+}
+
+#footer a:hover
+{
+	text-decoration: underline;
+}
+
+/* generic form styles */
+form
+{
+	margin: 1em auto;
+}
+
+form div
+{
+	clear: both;
+	padding: 0;
+	margin: 1px;
+}
+
+fieldset
+{
+	padding: 1em;
+	margin: 0 auto;
+	border: 1px solid #039;
+}
+
+fieldset legend
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0 0.4em 0 0.2em;
+	margin: 0;
+	cursor: help;
+}
+
+label
+{
+	display: block;
+	float: left;
+	width: 6em;
+	text-align: right;
+	line-height: 1.6em;
+	padding: 0;
+	margin: 0 0.5em 0 0;
+	cursor: help;
+}
+
+input, select, textarea, button
+{
+	width: 60%;
+	font-family: "trebuchet ms", tahoma, arial, helvetica, freesans, sans-serif;
+	font-size: 1em;
+	text-align: left;
+	padding: 1px 2px;
+	margin: 0;
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #579;
+	border-left-width: 4px;
+	cursor: help;
+}
+
+div.inputfirst input
+{
+	margin: 0 0 0 12.5em;
+}
+
+div.inputfirst label
+{
+	display: inline;
+	float: none;
+	text-align: left;
+	margin: 0;
+}
+
+div.button input
+{
+	width: 8em;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 1px 1px 1px;
+	margin: 3px 0 0 6.5em;
+	color: #fff;
+	background-color: #579;
+	border: 1px solid #579;
+	cursor: pointer;
+}
+
+div.button input:hover
+{
+	color: #579;
+	background-color: #fff;
+}
+
+.checkbox, .radio, .inputfirst input { width: auto; border-style: none; }
+
+/* focus styles */
+input:focus, select:focus, textarea:focus
+{
+	color: #000;
+	border-color: #000;
+}
+
+/* error styles */
+.error label
+{
+	color: #c00;
+}
+
+.error input
+{
+	border-color: #c00;
+}
+
+/* disabled styles */
+label.disabled
+{
+	color: #999;
+}
+
+/* typography */
+h1, h2, h3
+{
+	font-size: 2em;
+	font-weight: normal;
+	line-height: 1.1em;
+	letter-spacing: -1px;
+	margin-top: 1em;
+	color: #715a44;
+}
+
+h1 { margin: 0 0 10px 0; border-bottom:  2px solid #715a44; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.3em; }
+
+#sidebar h2, #sidebar h3 { margin: 0; }
+
+p
+{
+	line-height: 1.2em;
+	padding-bottom: 0.8em;
+}
+
+p a img
+{
+	float: right;
+	display: block;
+	margin: 4px 0 4px 4px;
+	border-style: none;
+}
+
+ul, ol { padding: 0 0 1em 3em; }
+ul { list-style-type: square; }
+li { padding: 0.2em 0 0.2em 0.5em; }
+
+a, a:link, a:visited { color: #579; text-decoration: underline; }
+a:hover { color: #13f; }
+
+/* lightbox CSS */
+.lightbox
+{
+	clear: left;
+	display: inline;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+	padding: 0 0 20px 0;
+	margin: 10px 0;
+}
+
+.lightbox li
+{
+	display: inline;
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.lightbox a:link, .lightbox a:visited
+{
+	display: block;
+	padding: 3px;
+	background-color: #fff;
+	border: 1px solid #808080;
+	outline: 0 none;
+}
+
+.lightbox a:hover, .lightbox a:focus
+{
+	background-color: #c6af99;
+	border-color: #382d22;
+}
+
+.lightbox a *
+{
+	display: none;
+}
+
+.lightbox a img
+{
+	display: block;
+	border: 0 none;
+}
+
+/* window overlay */
+#lb_pageoverlay
+{
+	background-color: #000;
+	z-index: 9999;
+}
+
+/* lightbox window */
+#lb_window
+{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 5px;
+	background-color: #fff;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 12px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 12px;
+	box-shadow: rgba(0, 0, 0, 0.8) 3px 3px 12px;
+	overflow: hidden;
+	z-index: 10000;
+}
+
+#lb_image
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #fff url("../images/lightbox/load.gif") 50% 50% no-repeat;
+	overflow: hidden;
+}
+
+#lb_image img
+{
+	position: absolute;
+}
+
+#lb_bar
+{
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 100%;
+	min-height: 44px;
+	height: auto !important;
+	height: 44px;
+	font-size: 0.85em;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	background: #000 url("../images/lightbox/description.gif") 0 0 repeat-x;
+	overflow: visible;
+}
+
+#lb_bar p
+{
+	padding: 0;
+	margin: 2px 5.5em 4px 5px;
+}
+
+#lb_bar p strong, #lb_bar p span { display: block; }
+
+#lb_bar a
+{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 18px;
+	height: 19px;
+	text-decoration: none;
+	background: url("../images/lightbox/next.gif") 0 0 no-repeat;
+}
+
+#lb_bar a#lb_next strong, #lb_bar a#lb_back strong { display: none; }
+
+#lb_bar a#lb_back
+{
+	right: 30px;
+	background-image: url("../images/lightbox/back.gif")
+}
+
+#lb_bar a#lb_close
+{
+	top: auto;
+	bottom: 5px;
+	width: auto;
+	height: auto;
+	padding-right: 14px;
+	color: #fff;
+	background: url("../images/lightbox/close.gif") 100% 65% no-repeat;
+}
